@@ -2,7 +2,9 @@
 svr=8a7e5144
 . .env
 
-ALL_SERVERS=$(curl --location --request GET https://panel.reload.works/api/application/nests/1/eggs/28?include=servers --header 'Accept: application/json' --header 'Authorization: Bearer '$APPLICATION_TOKEN'' --header 'Content-Type: application/json' | jq -r '.attributes.relationships.servers.data | .[] | .attributes.uuid')
+# ALL_SERVERS=$(curl --location --request GET https://panel.reload.works/api/application/nests/1/eggs/28?include=servers --header 'Accept: application/json' --header 'Authorization: Bearer '$APPLICATION_TOKEN'' --header 'Content-Type: application/json' | jq -r '.attributes.relationships.servers.data | .[] | .attributes.uuid')
+
+ALL_SERVERS=$(cat running_servers.txt)
 
 # start all servers
 for svr in $ALL_SERVERS; do
