@@ -12,9 +12,10 @@
 - [ ] These manual test cases cover this change:
 - [ ] Steps for the reviewer(s) on how they can manually QA the changes:
 - [ ] This is a minor internal change; basic CI/CD coverage is enough
-- [ ] No (significant) changes to production code; test changes should be reviewed
+- [ ] No (significant) changes to production code
 <!-- Development -->
 - [ ] The change also works in LogicTestServer (and does not break it)
+- [ ] The change also works in the local Docker Compose environment
 ---
 <!-- Documentation -->
 - [ ] Classes and public methods have documentation (that doesn't just repeat the technical subject in English)
