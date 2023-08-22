@@ -1,3 +1,6 @@
+# Small helper script that gets the latest Pterodactyl backups for all servers on a specific Wings node
+# and then spits out the restore/untar commands for all them to pick and choose from for a manual restore
+
 # svr=${1}
 svr=8a7e5144
 . .env

@@ -1,3 +1,6 @@
+# Small helper script that gets the app IDs of all servers in a specific Pterodactyl egg.
+# This is not the server's UUID in the client API, but an internal app ID of the application API
+
 # svr=${1}
 # svr=8a7e5144
 . .env

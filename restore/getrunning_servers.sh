@@ -1,3 +1,5 @@
+# Small helper script that gets all servers in a specific Pterodactyl egg that are currently running
+
 # svr=${1}
 # svr=8a7e5144
 . .env

@@ -1,3 +1,5 @@
+# Small helper script that patches the attributes for all servers in a specific egg
+
 # svr=${1}
 # svr=8a7e5144
 . .env # ADMIN_KEY is defined here

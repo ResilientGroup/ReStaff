@@ -1,3 +1,5 @@
+# Small helper script that patches the memory attribute for all servers in a specific input file
+
 # svr=${1}
 # svr=8a7e5144
 . .env

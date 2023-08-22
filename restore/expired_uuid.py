@@ -1,3 +1,6 @@
+# This script was to compile a list of expired server from two input files
+# This is a remnant of the past and no longer required
+
 import json
 
 with open('all_customer.json', 'r') as f:

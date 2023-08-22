@@ -1,3 +1,5 @@
+# Small helper script that patches the number of allowed backups for all servers in a specific egg
+
 # svr=${1}
 # svr=550 # good-warm
 . .env

@@ -1,3 +1,5 @@
+# Small helper script that simply kills all servers that are listed in a specific input file
+
 # svr=${1}
 # svr=8a7e5144
 . .env
