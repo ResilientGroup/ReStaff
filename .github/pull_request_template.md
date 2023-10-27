@@ -2,7 +2,7 @@
 
 ---
 <!-- Git and GitHub -->
-- [ ] The main commit(s) reference the Fibery ticket via a `FIB-NNNN` prefix in the commit message subject
+- [ ] The main commit(s) reference the Fibery ticket via a `TASK-NNNN` prefix in the commit message subject
 - [ ] Include a human-readable description of what the pull request is trying to accomplish
 - [ ] The CI build passes
 ---
